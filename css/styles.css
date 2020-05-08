@@ -1,0 +1,268 @@
+body {
+    font-family: arial, 'Oswald', sans-serif;
+    margin: 0;
+    width: 1800px;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:100px 850px 550px 550px 550px 550px 550px 100px;
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas:
+       /* "topmenu topmenu topmenu topmenu topmenu topmenu"*/
+        "header1 header1 header1 header header header"
+        "hero hero hero hero hero hero"
+        "videosI videosI videosI videos videos videos"
+        "historia2 historia2 historia1 historia1 historia historia"
+        "carta2 carta2 carta1 carta1 carta carta"
+        "covid2 covid2 covid1 covid1 covid covid"
+        "formulario formulario formulario mapa mapa mapa"
+        "footer footer footer1 footer1 footer2 footer2"
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+/*.item {
+    padding: 5px;
+    border: 1px solid red;
+}*/
+
+.item-menu{
+    display: inline-grid;
+    justify-content: center;
+    padding: 35px 60px 20px 0px;
+    color: white;
+    font-family: eb garamond;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 250;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*.topmenu {
+    grid-area: topmenu;
+    border: none;
+    padding-top: 1px;
+}*/
+
+.header1{
+    grid-area: header1;
+    background-color: #333333;
+    color: white;
+    padding: 0;
+    padding-left: 15%;
+}
+
+.header {
+    grid-area: header;
+    background-color:#333333;
+    color: white;
+    padding: 0;
+    padding-left: 15%;
+}
+#inicio{
+    text-decoration: underline;
+    font-size: 50;
+}
+
+
+.hero {
+    grid-area: hero;
+    background-image:;
+    background-repeat: no-repeat;
+}
+
+.hero .titulo {
+    font-family: eb garamond;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero .subtitulo {
+    font-family: eb garamond;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.videosI {
+    grid-area: videosI;
+    border: 1px solid red;
+}
+
+.videos {
+    grid-area: videos;
+}
+
+.historia2 {
+    grid-area: historia2;
+}
+
+.historia1 {
+    grid-area: historia1;
+}
+
+.historia {
+    grid-area: historia;
+}
+
+.carta2 {
+    grid-area: carta2;
+}
+
+
+.carta1 {
+    grid-area: carta1;
+}
+
+
+.carta {
+    grid-area: carta;
+}
+
+
+.covid2 {
+    grid-area: covid2;
+}
+
+.covid1 {
+    grid-area: covid1;
+}
+
+.covid {
+    grid-area: covid;
+}
+
+.formulario {
+    grid-area: formulario;
+    text-align: center;
+    padding: 50px;
+    background-image: url(img/4.png);
+    background-repeat: no-repeat;
+}
+
+.mapa {
+    grid-area: mapa;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #B6B6B6;
+    padding: 10px;
+    padding-left: 15%;
+    align-items: center;
+}
+.footer1 {
+    grid-area: footer1;
+    background-color: #B6B6B6;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+.footer2 {
+    grid-area: footer2;
+    background-color: #B6B6B6;
+    padding-right: 15%;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.top-menu-ol {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: top;
+}
+
+.top-menu-ol a {
+    margin-right: 25px;
+    color: #000000;
+    color: #000000;
+}
+
+.telefono-png {
+    margin-right: 2px;
+}
+
+.logo-header {
+    margin-right: 50%;
+}
+
+.item-videoI {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-video {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-historia2 {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-hitoria1 {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-historia {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-carta2 {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-carta1 {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-carta {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-covid {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
+
+.item-covid1 {
+    border: 1px solid red;
+    margin: 30px;
+    block-size: 490px;
+}
